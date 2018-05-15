@@ -51,6 +51,13 @@ def postOrder(myNode):
     preOrder(myNode.rightChild)
     print(myNode.data)
 
+def inOrder(myNode):
+
+    if myNode == None:
+        return
+    inOrder(myNode.leftChild)
+    print(myNode.data)
+    inOrder(myNode.data)
 
 def main():
     # Build and build tree from a comma seperated file called input.txt
