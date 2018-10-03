@@ -1,0 +1,1 @@
+Hi, this is a message that I would like to compress using a Huffman tree. The Huffman coding should be able to reduce the size of this input!!
